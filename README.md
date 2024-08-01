@@ -2,6 +2,7 @@
 A Hyperland Configuration based on Hyperdots (Using Nvidia)
 
 ## Usage
+Install Hyprdots (Skip the Flatpak)
 Edit the monitors.conf and hyprpaper.conf in /Dotfiles/hypr of the project, according to the [Hyprland Wiki](https://wiki.hyprland.org/Configuring/Monitors/).
 
 Now Simply run the install.sh (without root) and everything else should happen automatically.
