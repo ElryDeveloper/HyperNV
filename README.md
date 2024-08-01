@@ -2,7 +2,7 @@
 A Hyperland Configuration based on Hyperdots (Using Nvidia)
 
 ## Usage
-Edit the monitors.conf file according to the [Hyprland Wiki](https://wiki.hyprland.org/Configuring/Monitors/) for your Monitor Setup.
+Edit the monitors.setup file in the root of the project, according to the [Hyprland Wiki](https://wiki.hyprland.org/Configuring/Monitors/).
 Now Simply run the install.sh (without root) and everything else should happen automatically.
 
 ## Info
