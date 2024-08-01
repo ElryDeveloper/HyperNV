@@ -1,0 +1,17 @@
+    "memory": {
+        "states": {
+            "c": 90, // critical
+            "h": 65, // high
+            "m": 40, // medium
+        },
+        "interval": 2,
+        "format": "󰾆 {percentage}%",
+        "rotate": ${r_deg},
+        "format-m": "󰾅 {percentage}%",
+        "format-h": "󰓅 {percentage}%",
+        "format-c": " {percentage}%",
+        "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+    },
+

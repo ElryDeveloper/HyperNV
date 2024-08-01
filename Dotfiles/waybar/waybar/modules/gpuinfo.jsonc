@@ -1,0 +1,9 @@
+    "custom/gpuinfo": {
+        "exec": " gpuinfo.sh --use nvidia",
+        "return-type": "json",
+        "format": "{}",
+        "rotate": ${r_deg},
+        "interval": 2, // once every 5 seconds
+        "tooltip": true,
+        "max-length": 1000,
+    },
