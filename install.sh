@@ -10,4 +10,4 @@ cp -rf "${scrDir}/Dotfiles/hypr" "$HOME/.config/"
 
 cp -rf "${scrDir}/Dotfiles/waybar" "$HOME/.config/"
 
-reboot now
+sudo reboot now
