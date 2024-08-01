@@ -76,3 +76,8 @@ echo "${myShell}" >> "${scrDir}/install_pkg.lst"
 #--------------------------------#
 "${scrDir}/install_pkg.sh" "${scrDir}/install_pkg.lst"
 rm "${scrDir}/install_pkg.lst"
+
+cp "${scrDir}/custom_apps.lst" "${scrDir}/install_pkg.lst"
+"${scrDir}/install_pkg.sh" "${scrDir}/install_pkg.lst"
+rm "${scrDir}/install_pkg.lst"
+
