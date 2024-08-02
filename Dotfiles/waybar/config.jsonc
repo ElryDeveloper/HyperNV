@@ -17,7 +17,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","custom/cpuinfo","custom/gpuinfo","","memory","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","wlr/taskbar","custom/spotify","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","clock","pulseaudio","custom/updates","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","clock","pulseaudio","pulseaudio#microphone","network","custom/updates","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -150,6 +150,20 @@
     "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
     "scroll-step": 5
 },
+
+    "network": {
+        "tooltip": true,
+        "format-wifi": " ",
+        "rotate": 0,
+        "format-ethernet": "󰈀 ",
+        "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+        "format-linked": "󰈀 {ifname} (No IP)",
+        "format-disconnected": "󰖪 ",
+        "tooltip-format-disconnected": "Disconnected",
+        "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
+        "interval": 2,
+	"on-click-right": "nm-connection-editor",
+    },
 
     "custom/updates": {
         "exec": "systemupdate.sh",
