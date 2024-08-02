@@ -7,13 +7,13 @@ yay -Sy google-chrome discord spotify unityhub jetbrains-toolbox virtualbox virt
 yay -Sy lsd|fish
 yay -Sy starship|fish
 
-yay -Rs vim vi firefox brave
+yay -Rs vim vi firefox brave || true
 
-yay -Rsc zsh
+yay -Rsc zsh || true
 
 # Set up git
 
-git-credential-manager enable
+git-credential-manager configure
 
 git config --global credential.redentialStore secretservice
 
@@ -25,6 +25,8 @@ cp -rf "${scrDir}/Dotfiles/hypr" "$HOME/.config/"
 
 cp -rf "${scrDir}/Dotfiles/waybar" "$HOME/.config/"
 
-cp -f "${scrDir}/Dotfiles/scripts/*" "$HOME/.local/share/bin"
+cp -f "${scrDir}/Dotfiles/scripts/gpuinfo.sh" "$HOME/.local/share/bin/"
+
+cp -f "${scrDir}/Dotfiles/scripts/cpuinfo.sh" "$HOME/.local/share/bin/"
  
-sudo reboot now
+#sudo reboot now
