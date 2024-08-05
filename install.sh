@@ -29,5 +29,7 @@ cp -rf "${scrDir}/Dotfiles/waybar" "$HOME/.config/"
 cp -f "${scrDir}/Dotfiles/scripts/gpuinfo.sh" "$HOME/.local/share/bin/"
 
 cp -f "${scrDir}/Dotfiles/scripts/cpuinfo.sh" "$HOME/.local/share/bin/"
+
+echo "Everything is done, rebooting in 5 Seconds"
  
-#sudo reboot now
+sudo reboot 5s
