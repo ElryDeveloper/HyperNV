@@ -7,7 +7,7 @@ yay -Sy google-chrome discord spotify unityhub jetbrains-toolbox virtualbox virt
 yay -Sy lsd|fish
 yay -Sy starship|fish
 
-yay -Rs vim vi firefox brave || true
+yay -Rs vim vi firefox brave flatpak || true
 
 yay -Rsc zsh || true
 
@@ -15,7 +15,11 @@ yay -Rsc zsh || true
 
 git-credential-manager configure
 
-git config --global credential.redentialStore secretservice
+git config --global credential.credentialStore secretservice
+
+git config --global credential.helper /usr/lib/git-core/git-credential-libsecret
+
+git config --global http.postBuffer 2147483648
 
 # Move the Dotfiles and Wallpapers
 
