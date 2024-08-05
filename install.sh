@@ -32,4 +32,4 @@ cp -f "${scrDir}/Dotfiles/scripts/cpuinfo.sh" "$HOME/.local/share/bin/"
 
 echo "Everything is done, rebooting in 5 Seconds"
  
-sudo reboot 5s
+sleep 5 ; sudo reboot
