@@ -2,14 +2,9 @@ scrDir=$(dirname "$(realpath "$0")")
 
 # Install / Uninstall Packages with yay
 
-yay -Sy google-chrome discord spotify unityhub jetbrains-toolbox virtualbox virtualbox-guest-utils hyprpaper fish nano git gnome-keyring git-credential-manager
-
-yay -Sy lsd|fish
-yay -Sy starship|fish
+yay -Sy google-chrome discord spotify unityhub jetbrains-toolbox virtualbox virtualbox-guest-utils hyprpaper nano git gnome-keyring git-credential-manager
 
 yay -Rs vim vi firefox brave flatpak || true
-
-yay -Rsc zsh || true
 
 # Set up git
 
