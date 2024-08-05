@@ -21,6 +21,8 @@ git config --global credential.helper /usr/lib/git-core/git-credential-libsecret
 
 git config --global http.postBuffer 2147483648
 
+git config --global core.autocrlf input
+
 # Move the Dotfiles and Wallpapers
 
 cp -rf "${scrDir}/Pictures" "$HOME"
