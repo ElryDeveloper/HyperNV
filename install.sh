@@ -12,7 +12,7 @@ git-credential-manager configure
 
 git config --global credential.credentialStore secretservice
 
-git config --global credential.helper /usr/lib/git-core/git-credential-libsecret
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
 
 git config --global http.postBuffer 2147483648
 
