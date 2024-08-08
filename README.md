@@ -1,7 +1,14 @@
 # HyprNV Dotfiles
 A Hyperland Configuration based on Hyperdots (Using Nvidia)
+
+![image](https://github.com/user-attachments/assets/3def3fbb-f94a-4414-a80b-4a7001a63d25)
+
+
 This repo is Archived in Favor of my Hyprland based OS.
-This is used as a Configurationbase for my [HyprOS](https://github.com/ElryDeveloper/HyprOS) and this repo wont be updated anymore, if you want to use my Configuration you have to use HyprOS.
+
+This is used as a Configurationbase for my [HyprOS](https://github.com/ElryDeveloper/HyprOS).
+
+This repo wont be updated anymore, if you want to use my Configuration you have to use HyprOS.
 
 ## Usage (Not Recommended)
 Install [Hyprdots](https://github.com/prasanthrangan/hyprdots/) (Skip the Flatpak)
